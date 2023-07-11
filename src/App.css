@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  background-color: rgb(192, 192, 183);
+  font-size: x-large;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  margin-top: 100px;
+  margin-left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+}
+
+
+.reset {
+  margin-top: 20px;
+  margin-left: 47.8vw;
+}
+
+.cell {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.cell:hover {
+  color: aqua;
+  background-color: blueviolet;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.playero-score {
+  margin-left: 10px;
+}
